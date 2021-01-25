@@ -1,0 +1,14 @@
+
+#container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+#author {
+    text-align:justify;
+    font-style: italic;
+    text-indent: 50px;
+}
+
