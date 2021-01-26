@@ -7,8 +7,21 @@
 }
 
 #author {
-    text-align:justify;
+    text-align:center;
     font-style: italic;
     text-indent: 50px;
 }
 
+h1 {
+    text-align: center;
+}
+
+#image-container {
+    text-align: center;
+    
+}
+
+figcaption {
+    font-style:italic;
+    
+}
