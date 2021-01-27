@@ -1,27 +1,28 @@
 
-#container {
+.container {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-right: 80px;
     margin-left: 80px;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    position: fixed;
+    left: 50px;
+    right: 50px;
+
 }
 
+
 #author {
-    text-align:center;
     font-style: italic;
     text-indent: 50px;
 }
 
-h1 {
-    text-align: center;
-}
-
-#image-container {
-    text-align: center;
-    
-}
 
 figcaption {
     font-style:italic;
-    
 }
+
+
+
