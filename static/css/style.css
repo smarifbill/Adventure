@@ -1,28 +1,70 @@
+/*For very small devices (phones) 600px and down */
+@media only screen and (max-width:600px) {
+    body {
+        overflow: auto;
+        text-overflow: ellipsis;
+        
+    }
+}
 
-.container {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 80px;
-    margin-left: 80px;
-    text-align: center;
-    display: inline-block;
-    align-items: center;
-    position: fixed;
-    left: 50px;
-    right: 50px;
+/*For small devices (large phones & small tablets) 600px and up */
+@media only screen and (min-width:600px) {
+    body {
+        overflow: auto;
+        text-overflow: ellipsis;
+        
+    }
+}
 
+/*For medium devices (tablets) 768px and up */
+@media only screen and (min-width:768px) {
+    body {
+        overflow: auto;
+        text-overflow: ellipsis;
+        
+    }
+}
+
+/*For large devices (laptops/desktops) 992px and up */
+@media only screen and (min-width:992px) {
+    body {
+        overflow: auto;
+        text-overflow: ellipsis;
+    
+    }
+}
+
+/*For  very large devices (large laptops/desktops) 1200px and up */
+@media only screen and (min-width:1200px) {
+    body {
+        overflow: auto;
+        text-overflow: ellipsis;
+        
+    }
 }
 
 
-#author {
+.container {
+    margin: 0 auto;
+    text-align: center;
+    display: flex; /* display flexbox*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+#author  {
     font-style: italic;
-    text-indent: 50px;
 }
 
 
 figcaption {
     font-style:italic;
 }
+
+
 
 
 

@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- adjust to device screen size -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1,
+ user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta name="HandheldFriendly" content="true" />
+
     <!--external CSS-->
     <link rel="stylesheet" type="text/css" href="/static/css/style.css" />
     <link
@@ -28,22 +37,16 @@
         What do you think I did?
       </p>
 
-      
       <div class="container">
-      
-      <img src="/static/images/fox.jpg" alt="fox" width="400" height="300" />
-      <br />
-      <br />
+        <img src="/static/images/fox.jpg" alt="fox" width="400" height="300" />
+        <br />
 
-      <a id="choices" class="left" href="/choice1"> Choice 1 </a>
-      <br />
-      <!-- <br /> -->
-      <a id="choices" class="right" href="/choice2"> Choice 2 </a>
-      
-      <br /> 
+        <a id="choice-one" class="choices" href="/choice1"> Choice 1 </a>
+        
+        <!-- <br /> -->
+        <a id="choice-two" class="choices" href="/choice2"> Choice 2 </a>
 
-
-
+        <br />
       </div>
     </div>
   </body>
